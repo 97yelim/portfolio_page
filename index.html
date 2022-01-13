@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김예림 포트폴리오</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/site_favicon.ico" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/imglink.css">
+    
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/rollingtext.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/click.js"></script>
+    
+
+    <audio id='audio_play' src='./sound/click.wav'></audio> 
+
+</head>
+<body onclick="play()">
+   <header id="header" class="header">
+       <div class="menu">
+           <a href="http://kimyelim.ivyro.net/#"><img src="./img/logo.png" alt=" NYARO."></a>
+            <nav>
+                <ul>
+                    <li><a href="#about">저는 이런사람이에요!</a></li>
+                    <li><a href="#Portfolio_web">웹 솜씨</a></li>
+                    <li><a href="#Portfolio_etc">디자인 솜씨</a></li>
+                    <li><a href="#contact">메일주세요!</a></li>
+                </ul>
+            </nav>
+        </div>
+   </header>
+   <div class="hamburger">
+        <button><i class="xi-bars xi-2x"></i></button>
+        <button><i class="xi-hamburger-out xi-2x"></i></button>
+    </div>
+   <div class="mobile_menu">     
+        <nav>
+            <ul>
+                <li><a href="#about">제가 이런사람이에요!</a></li>
+                <li><a href="#Portfolio_web">웹 솜씨</a></li>
+                <li><a href="#Portfolio_etc">디자인 솜씨</a></li>
+                <li><a href="#contact">메일주세요!</a></li>
+            </ul>
+        </nav>
+   </div>
+   <div class="mobile_menu_bg"></div>
+   <section id="main" class="main">
+       <div class="bg_img">
+            <p class="bg_text">웹</p>
+            <div class="main_icon fileicon clearfix">
+                <img src="./img/folder.png" alt="메인페이지폴더이미지">
+                <p>메인페이지</p>
+            </div>
+            <div class="maincon">
+                <div class="window_top">
+                    <p>메인페이지</p>
+                    <div class="window_btn">
+                        <i class="xi-minus-min"></i>
+                        <i class="xi-checkbox-blank"></i>
+                        <i class="xi-close-min close"></i>
+                    </div>
+                </div>
+                <div class="window_main">
+                    <p class="attantion">*본 홈페이지는 모바일 대응 반응형입니다. (동적 요소를 확인하시려면 1080*1920 에서 확인 부탁드립니다.)</p>
+                    <div class="mask">
+                        <ul id="txtlist">
+                            <li>&#128187; <span> 웹 퍼블리셔  </span></li>
+                            <li>&#127918; <span> 게임을 좋아하는 </span></li>
+                            <li>&#128049; <span> 고양이를 사랑하는 </span></li>
+                        </ul>
+                    </div>
+                   <div class="m_mask">
+                    <li>&#128187; <span> 웹 퍼블리셔  </span></li>
+                   </div> 
+                    <p>김예림 입니다! XD</p>
+                </div>
+            </div>
+            <p class="bg_text">퍼블리셔</p>
+        </div>
+   </section>
+   <section id="about" class="about">
+       <div class="text_column">
+            <p>#제가_궁금하신가요?</p>
+       </div>
+       <div class="aboutcon clearfix">
+            <div class="window_top">
+                <p>프로필_최종_정말_진짜최종</p>
+                <div class="window_btn">
+                    <i class="xi-minus-min"></i>
+                    <i class="xi-checkbox-blank"></i>
+                    <i class="xi-close-min"></i>
+                </div>
+            </div>
+            <div class="window_about">
+                <div class="profile_main">
+                    <h2>저는!</h2>
+                    <div class="profile_img"></div>
+                    <p>하나하나 만들어가는 게 즐거운, 신입 웹 퍼블리셔 <span>김예림</span> 입니다!</p>
+                    <p>더 나은 디자인을 위해 고민하고, 더 깔끔한 코딩을 위해 고쳐나가며, 더 발전하려 노력합니다. 더해 프론트엔드에 관심이 많습니다!</p>
+                    <a href="https://github.com/97yelim/" target="blank" class="resume">
+                        <i class="xi-github"></i> <span>  GitHub 보러가기</span>
+                    </a>
+                </div>
+                    <div class="profile_con">
+                        <h2>프로필</h2>
+                        <p><span>이름</span> 김예림</p>
+                        <p><span>나이</span> 1997. 10. 24</p>
+                        <p><span>주소</span> 서울특별시 구로구</p>
+                        <p class=""><span>연락처</span> glzkfmeh23@naver.com  <span class="btn_emoji" data-clipboard-text="glzkfmeh23@naver.com">&#128140;</span> </p>
+                        <h3>보유 자격증</h3>
+                        <p><span>2015. 07.</span>컴퓨터그래픽스운용기능사</p>
+                        <p><span>2015. 06.</span>정보기술자격(ITQ)한글파워포인트</p>
+                        <p><span>2015. 10.</span>ITQ Master (엑셀)</p>
+                </div>
+                <div class="career">
+                    <h2>경력사항</h2>
+                    <div class="career1">
+                        <h3>남택스 컨설팅 <span>2020. 08 ~ 2021. 01</span></h3>
+                        <p>웹 디자인</p>
+                        <ul>
+                            <li>sns 썸네일 디자인 (페이스북, 인스타,유튜브)</li>
+                            <li>sns 프로필페이지 디자인 (네이버블로그, 유튜브)</li>
+                            <li>자사 홈페이지 디자인</li>
+                        </ul>
+                        <p>외 타 디자인</p>
+                        <ul>
+                            <li>서류 디자인</li>
+                            <li>ppt 디자인</li>
+                            <li>캐릭터 디자인</li>
+                            <li>채용 영상 제작 </li>
+                        </ul>
+                    </div>
+                    <div class="career2">
+                        <h3>(주)라피스 <span>2019. 09. ~ 2020.01.</span></h3>
+                        <ul>
+                            <li>sns컨텐츠 및 배너디자인</li>
+                            <li>리플렛, 배너, 명함 디자인</li>
+                        </ul>
+                    </div>
+                    <div class="career3">
+                        <h3>코리아 시스템 <span>2015. 06 ~ 2019. 01</span></h3>
+                        <ul>
+                            <li>실사 그래픽 제작 및 인쇄 (휀스그래픽)</li>
+                        </ul>
+                    </div>
+                    <div class="career4">
+                        <h3>(주)에이치투인터렉티브 <span>2015. 06 ~ 2016. 08</span></h3>
+                        <ul>
+                            <li>홈페이지 유지보수 (h2몰)</li>
+                            <li>이벤트 배너 및 이벤트 상세페이지, 제품 상세페이지 제작</li>
+                            <li>패키지 디자인 / 레이블 디자인 / 매뉴얼 디자인</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="bg_text">#웹_솜씨예요!</p>
+   </section>
+
+   <section id="Portfolio_web" class="Portfolio_web">
+        <div class="webSwiper swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1">
+                    <div class="pf_web_con">
+                        <div class="pf_img">
+                            <a href="http://kimyelim.ivyro.net/pf/01" target="blank">
+                                <img src="./img/pf_web_1.png" alt="인터렉티브 홈페이지 리뉴얼">
+                            </a>
+                        </div>
+                        <div class="pf_web_info">
+                            <div class="pf_web_title">
+                                <h3>H2인터렉티브 홈페이지 리뉴얼</h3>
+                            </div>
+                            <ul class="clearfix">
+                                <li>반응형</li>
+                                <li>웹표준</li>
+                                <li>웹접근성</li>
+                            </ul>
+                            <div class="pf_web_plan">
+                                <p><span>메인컬러</span> <span class="color1 color"></span><span class="color2 color"></span></p>
+                                <p><span>기여도</span>디자인 100% / 퍼블리싱 100%</p>
+                                개인 작업으로 게임회사 홈페이지 리뉴얼을 진행했습니다. 기존 홈페이지에서는 너무 많은 정보량을 담고 있어 적당선으로 덜어냈으며, 홈페이지에 동적인 움직임을 부여해 조금 더 사람들의 시선이 집중되게끔 작업했습니다.
+                            </div>
+                            <div class="pf_web_btn">
+                                <a href="http://kimyelim.ivyro.net/pf/01" target="blank">사이트 보러가기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide2">
+                    <div class="pf_web_con">
+                        <div class="pf_img">
+                            <a href="http://kimyelim.ivyro.net/pf/02" target="blank">
+                                <img src="./img/pf_web_2.png" alt="애슐리 홈페이지 리뉴얼">
+                            </a>
+                        </div>
+                        <div class="pf_web_info">
+                            <div class="pf_web_title">
+                                <h3>애슐리 홈페이지 리뉴얼</h3>
+                            </div>
+                            <ul class="clearfix">
+                                <li>웹표준</li>
+                                <li>웹접근성</li>
+                            </ul>
+                            <div class="pf_web_plan">
+                                <p><span>메인컬러</span> <span class="color1 color"></span><span class="color2 color"></span><span class="color3 color"></span></p>
+                                <p><span>기여도</span>디자인 100% / 퍼블리싱 100%</p>
+                                개인작업으로 진행한 애슐리 홈페이지 리뉴얼 입니다. 기존 홈페이지에서 레이아웃을 전체적으로 변경하였습니다. 기존 레이아웃 같은 경우 사이의 여백이 좁고, 일정치 않아 사용자가 답답함을 느낄 수 있어 수정 작업했으며, 배치도 페르소나를 통하여 재배치 진행하였습니다.
+                            </div>
+                            <div class="pf_web_btn">
+                                <a href="http://kimyelim.ivyro.net/pf/02" target="blank">사이트 보러가기</a>
+                                <a href="./src/Ashley_UXUIconcept_KYL.pdf" target="blank">콘셉트 보러가기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide3">
+                    <div class="pf_web_con">
+                        <div class="pf_img">
+                            <a href="http://kimyelim.ivyro.net/pf/03" target="blank">
+                                <img src="./img/pf_web_3.png" alt="세무회사 홈페이지">
+                            </a>
+                        </div>
+                        <div class="pf_web_info">
+                            <div class="pf_web_title">
+                                <h3>세무회사 홈페이지</h3>
+                            </div>
+                            <ul class="clearfix">
+                                <li>웹표준</li>
+                                <li>웹접근성</li>
+                            </ul>
+                            <div class="pf_web_plan">
+                                <p><span>메인컬러</span> <span class="color1 color"></span><span class="color2 color"></span><span class="color3 color"></span></p>
+                                <p><span>기여도</span>디자인 50% / 퍼블리싱 100%</p>
+                                개인작업으로 진행한 세무회사 홈페이지 입니다. 이미지 템플릿을 보고 동적인 요소와 재배치 및 새로운 디자인 섹션을 추가해 퍼블리싱 작업 진행했습니다.
+                                
+                            </div>
+                            <div class="pf_web_btn">
+                                <a href="http://kimyelim.ivyro.net/pf/03" target="blank">사이트 보러가기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide4">
+                    <div class="pf_web_con">
+                        <div class="pf_img">
+                            <a href="http://kimyelim.ivyro.net/pf/04" target="blank">
+                                <img src="./img/pf_web_4.png" alt="풀페이지 홈페이지">
+                            </a>
+                        </div>
+                        <div class="pf_web_info">
+                            <div class="pf_web_title">
+                                <h3>풀페이지 홈페이지</h3>
+                            </div>
+                            <ul class="clearfix">
+                                <li>웹표준</li>
+                                <li>웹접근성</li>
+                            </ul>
+                            <div class="pf_web_plan">
+                                <p><span>메인컬러</span> <span class="color1 color"></span><span class="color2 color"></span><span class="color3 color"></span><span class="color4 color"></span></p>
+                                <p><span>기여도</span>디자인 50% / 퍼블리싱 100%</p>
+                                개인작업으로 진행한 풀페이지 홈페이지 입니다. 이미지 템플릿을 보고 동적인 요소와 재배치 및 새로운 디자인 섹션을 추가해 퍼블리싱 작업 진행했습니다.
+                                
+                            </div>
+                            <div class="pf_web_btn">
+                                <a href="http://kimyelim.ivyro.net/pf/04" target="blank">사이트 보러가기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next webswiper-button-next"></div>
+            <div class="swiper-button-prev webswiper-button-prev"></div>
+        </div>
+        
+        <p class="bg_text">#디자인_솜씨예요!</p>
+    </section>
+    <section id="Portfolio_etc" class="Portfolio_etc">
+        <div class="swiper designeSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide1">
+                <div class="design_contants">
+                    <div class="contants">
+                        <h3>안내문</h3>
+                        <a href="./sub_page/sub_page_01.html">
+                            <div class="design_info">
+                                <h2>제안서 내지 디자인</h2>
+                                <div class="use_program">
+                                    <div class="il"></div>
+                                    <div class="ps"></div>
+                                </div>
+                                <p class="title">남택스 컨설팅</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contants">
+                        <h3>동영상</h3>
+                        <a href="./sub_page/sub_page_02.html">
+                            <div class="design_info">
+                                <h2>채용공고 영상 제작</h2>
+                                <div class="use_program">
+                                    <div class="af"></div>
+                                    <div class="ps"></div>
+                                </div>
+                                <p class="title">남택스 컨설팅</p>
+                            </div>
+                        </a>
+                    </div>  
+                    <div class="contants">
+                        <h3>인쇄</h3>
+                        <a href="./sub_page/sub_page_03.html">
+                            <div class="design_info">
+                                <h2>경리아웃 소싱 안내문</h2>
+                                <div class="use_program">
+                                    <div class="il"></div>
+                                    <div class="ps"></div>
+                                </div>
+                                <p class="title">남택스 컨설팅</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contants">
+                        <h3>웹디자인</h3>
+                        <a href="./sub_page/sub_page_04.html">
+                            <div class="design_info">
+                                <h2>채용공고 이미지</h2>
+                                <div class="use_program">
+                                    <div class="il"></div>
+                                    <div class="ps"></div>
+                                </div>
+                                <p class="title">남택스 컨설팅</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contants">
+                        <h3>캐릭터</h3>
+                        <a href="./sub_page/sub_page_05.html">
+                            <div class="design_info">
+                                <h2>킨다지 캐릭터 드로잉</h2>
+                                <div class="use_program">
+                                    <div class="clip_studio_paint"></div>
+                                </div>
+                                <p class="title">개인작업</p>
+                            </div>
+                        </a>
+                    </div>  
+                    <div class="contants">
+                        <h3>PPT</h3>
+                        <a href="./sub_page/sub_page_06.html">
+                            <div class="design_info">
+                                <h2>회사소개서</h2>
+                                <div class="use_program">
+                                    <div class="il"></div>
+                                    <div class="ps"></div>
+                                </div>
+                                <p class="title">남택스 컨설팅</p>
+                            </div>
+                        </a>
+                    </div>    
+                </div>
+              </div>
+              <div class="swiper-slide slide2">
+                <div class="design_contants">
+                    <div class="contants">
+                        <h3>웹디자인</h3>
+                        <a href="./sub_page/sub_page_07.html">
+                            <div class="design_info">
+                                <h2>랜딩페이지 디자인</h2>
+                                <div class="use_program">
+                                    <div class="il"></div>
+                                    <div class="ps"></div>
+                                </div>
+                                <p class="title">청솔로9</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contants">
+                        <h3>카드뉴스</h3>
+                        <a href="./sub_page/sub_page_08.html">
+                            <div class="design_info">
+                                <h2>청솔로9 홍보 카드뉴스</h2>
+                                <div class="use_program">
+                                    <div class="il"></div>
+                                </div>
+                                <p class="title">청솔로9</p>
+                            </div>
+                        </a>
+                    </div>  
+                    <div class="contants">
+                        <h3>웹디자인</h3>
+                        <a href="./sub_page/sub_page_09.html">
+                            <div class="design_info">
+                                <h2>블로그 디자인</h2>
+                                <div class="use_program">
+                                    <div class="ps"></div>
+                                    <div class="html"></div>
+                                </div>
+                                <p class="title">남택스 컨설팅</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contants">
+                        <h3>웹디자인</h3>
+                        <a href="./sub_page/sub_page_10.html">
+                            <div class="design_info">
+                                <h2>재난지원금 안내 이미지 제작</h2>
+                                <div class="use_program">
+                                    <div class="il"></div>
+                                </div>
+                                <p class="title">남택스 컨설팅</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contants">
+                        <h3>웹,인쇄</h3>
+                        <a href="./sub_page/sub_page_11.html">
+                            <div class="design_info">
+                                <h2>워라밸 클래스 행사 X배너, 포스터, 카드뉴스</h2>
+                                <div class="use_program">
+                                    <div class="il"></div>
+                                </div>
+                                <p class="title">라피스</p>
+                            </div>
+                        </a>
+                    </div>  
+                    <div class="contants">
+                        <h3>PPT</h3>
+                        <a href="./sub_page/sub_page_12.html">
+                            <div class="design_info">
+                                <h2>회사소개서</h2>
+                                <div class="use_program">
+                                    <div class="il"></div>
+                                    <div class="ps"></div>
+                                </div>
+                                <p class="title">라피스</p>
+                            </div>
+                        </a>
+                    </div>    
+                </div>
+              </div>
+              <div class="swiper-slide slide3">
+                <div class="design_contants">
+                    <div class="contants">
+                        <h3>카드뉴스</h3>
+                        <a href="./sub_page/sub_page_13.html">
+                            <div class="design_info">
+                                <h2>워라클 소개 카드뉴스</h2>
+                                <div class="use_program">
+                                    <div class="il"></div>
+                                    <div class="ps"></div>
+                                </div>
+                                <p class="title">라피스</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contants">
+                        <h3>카드뉴스</h3>
+                        <a href="./sub_page/sub_page_14.html">
+                            <div class="design_info">
+                                <h2>워라클 소개 카드뉴스</h2>
+                                <div class="use_program">
+                                    <div class="ps"></div>
+                                </div>
+                                <p class="title">라피스</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contants">
+                        <h3>웹디자인</h3>
+                        <a href="./sub_page/sub_page_15.html">
+                            <div class="design_info">
+                                <h2>sns커버 디자인</h2>
+                                <div class="use_program">
+                                    <div class="il"></div>
+                                    <div class="ps"></div>
+                                    <div class="clip_studio_paint"></div>
+                                </div>
+                                <p class="title">남택스 컨설팅</p>
+                            </div>
+                        </a>
+                    </div>      
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next designswiper-button-next"></div>
+            <div class="swiper-button-prev designswiper-button-prev"></div>
+        </div>
+        <h2 class="bg_text">봐주셔서 정말 감사합니다!</h2>
+    </section>
+    <section id="contact" class="contact">
+        <div class="contact_con">
+            <div class="con_email">
+                <p>이메일 보내러가기</p>
+                <div class="cta-arrow ">
+                    <a href="mailto:glzkfmeh23@naver.com">
+                        <div class="line"></div>
+                    </a>
+                </div>
+                <span class="btn_emoji" data-clipboard-text="glzkfmeh23@naver.com">&#128140;</span>
+            </div>
+            <div class="con_call">
+                <p>전화 걸러가기</p>
+                <div class="cta-arrow ">
+                    <a href="tel:01050434289">
+                        <div class="line"></div>
+                    </a>
+                </div>
+                <span class="btn_call" data-clipboard-text="01050434289">&#128222;</span>
+            </div>
+        </div>
+        <div class="copy">
+            <p>© 2021 김예림 All right reserved</p>
+            <p> 이 사이트는 비상업적 용도로 제작된 포트폴리오 사이트입니다. 사용된 일부 이미지 및 폰트 등은 별도의 출처가 있음을 밝혀 드립니다.</p>
+        </div>
+           
+    </section>
+    
+    <button type="button" class="back-to-top">
+        <span class="label">페이지 위로 가기</span>
+    </button>
+    <a href="#header" class="go_top"><i class="xi-angle-up-thin xi-3x"></i></a>
+</body>
+</html>

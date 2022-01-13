@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body {background-image:url(../img/bg.jpg); }
+.design {background-image:url(../img/bg.jpg);}
+.il {background: url(../img/illustrator.png);}
+.ps {background: url(../img/photoshop.png);}
+.af {background: url(../img/after-effects.png);}
+.html {background: url(../img/free-icon-html-5-5968267.png);}
+.clip_studio_paint {background: url(../img/paint_icon.png);}
+
+.slide1 .design_contants .contants:nth-child(1) a { background-image: url(../img/etc1_1.png);}
+.slide1 .design_contants .contants:nth-child(2) a { background-image: url(../img/etc1_2.png);}
+.slide1 .design_contants .contants:nth-child(3) a { background-image: url(../img/etc1_3.png);}
+.slide1 .design_contants .contants:nth-child(4) a { background-image: url(../img/etc1_4.png);}
+.slide1 .design_contants .contants:nth-child(5) a { background-image: url(../img/etc1_5.png);}
+.slide1 .design_contants .contants:nth-child(6) a { background-image: url(../img/etc1_6.png);}
+
+.slide2 .design_contants .contants:nth-child(1) a { background-image: url(../img/etc1_7.png);}
+.slide2 .design_contants .contants:nth-child(2) a { background-image: url(../img/etc1_8.png);}
+.slide2 .design_contants .contants:nth-child(3) a { background-image: url(../img/etc1_9.png);}
+.slide2 .design_contants .contants:nth-child(4) a { background-image: url(../img/etc1_13.png);}
+.slide2 .design_contants .contants:nth-child(5) a { background-image: url(../img/etc1_14.png);}
+.slide2 .design_contants .contants:nth-child(6) a { background-image: url(../img/etc1_12.png);}
+
+.slide3 .design_contants .contants:nth-child(1) a { background-image: url(../img/etc1_15.jpg);}
+.slide3 .design_contants .contants:nth-child(2) a { background-image: url(../img/etc1_16.png);}
+.slide3 .design_contants .contants:nth-child(3) a { background-image: url(../img/etc1_10.png);}
+

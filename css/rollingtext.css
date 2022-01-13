@@ -1,0 +1,4 @@
+* {margin:0;padding:0;}
+ul,li {list-style:none;}
+.mask {overflow:hidden;height:20px;line-height:20px;background:pink;}
+.mask > ul {position:relative;top:0;left:0;}
